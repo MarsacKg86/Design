@@ -1,0 +1,25 @@
+.material {
+    position: relative;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    font-weight: bold;
+    color: rgb(24, 1, 24);
+    background: whitesmoke;
+    transition: 0.3s;
+    opacity: 0.5;    
+    top: 15px;
+    bottom: 350px;
+    
+
+}
+.material:hover{
+    background: blueviolet;
+    opacity: 1;
+}
+
+
+
+
+   
