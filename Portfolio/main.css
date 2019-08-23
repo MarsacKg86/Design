@@ -1,0 +1,163 @@
+@font-face{
+    font-family: "Lakeshore"; 
+    src: url('lakeshore-regular.ttf');
+}
+
+body {
+    background: #F2F2F2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #50514F;
+    text-align: left;
+}
+/* unvisited link */
+a:link {
+    color: #D67C68;
+  }  
+  /* visited link */
+  a:visited {
+    color: #EAC82E;
+  }  
+  /* mouse over link */
+  a:hover {
+    color: #50514F;
+   
+  }  
+  /* selected link */
+  a:active {
+    color: #B8BDB5;
+}
+
+header {
+position: relative;
+width: 100%;
+height: 50px;
+background: #B8BDB5;
+/* z-index: initial; */
+}
+
+.projects {
+    margin-top: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: inline;
+    left: 100px;
+    font-size: 16px;
+}
+
+.blog {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: inline;  
+    z-index: 2;  
+}
+
+/* .firstName {
+    z-index: 1;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 125px;
+}
+
+.lastName {
+    z-index: initial;
+    position: relative;
+    margin-top: -175px;
+    margin-left: 450px;
+} */
+
+.signature {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    top: 150px;
+    margin-left: 5px;
+    
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    margin-left: 150px;
+}
+
+p {
+    position: relative;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #50514F;
+
+}
+
+.resumebutton {
+    position: relative;
+    top: -85px;
+    left: 90px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #F2F2F2;
+    border-radius: 10px;
+    background-color: #D67C68;
+    box-shadow: 5px 5px 5px #50514F;
+    width: 150px;
+    height: 50px;    
+    vertical-align: center;
+    text-align: center;
+}
+
+.blogbutton {
+    top:150px; 
+    left: 40%; 
+    right: 40%;
+    position: relative;
+    display: flex;       
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #F2F2F2;
+    border-radius: 10px;
+    background-color: #D67C68;
+    box-shadow: 5px 5px 5px #50514F;
+    width: 150px;
+    height: 50px;    
+    vertical-align: center;
+    text-align: center;
+}
+
+
+.projectCatcher {
+    position: relative;
+    margin-left: 15px;    
+}
+
+.projectHaus{
+    position: relative;  
+    margin-left: 15px;
+}
+
+.projectCodeBootCamp{
+    position: relative; 
+    margin-left: 15px;   
+}
+
+.tech {
+    font-weight: bold;
+}
